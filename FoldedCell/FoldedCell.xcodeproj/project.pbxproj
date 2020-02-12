@@ -17,6 +17,8 @@
 		2CAD88E323F376D0002BB489 /* FoldedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD88E123F376D0002BB489 /* FoldedTableViewCell.swift */; };
 		2CAD88E423F376D0002BB489 /* FoldedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CAD88E223F376D0002BB489 /* FoldedTableViewCell.xib */; };
 		2CAD88E723F37720002BB489 /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD88E623F37720002BB489 /* AnimationType.swift */; };
+		2CAD88E923F379B5002BB489 /* RotatedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD88E823F379B5002BB489 /* RotatedUIView.swift */; };
+		2CAD88EC23F37F4E002BB489 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD88EB23F37F4E002BB489 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		2CAD88E123F376D0002BB489 /* FoldedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldedTableViewCell.swift; sourceTree = "<group>"; };
 		2CAD88E223F376D0002BB489 /* FoldedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoldedTableViewCell.xib; sourceTree = "<group>"; };
 		2CAD88E623F37720002BB489 /* AnimationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
+		2CAD88E823F379B5002BB489 /* RotatedUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedUIView.swift; sourceTree = "<group>"; };
+		2CAD88EB23F37F4E002BB489 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 		2CAD88BE23F37621002BB489 /* FoldedCell */ = {
 			isa = PBXGroup;
 			children = (
+				2CAD88EA23F37F1A002BB489 /* Extensions */,
 				2CAD88E523F3770C002BB489 /* Enum */,
 				2CAD88BF23F37621002BB489 /* AppDelegate.swift */,
 				2CAD88C123F37621002BB489 /* SceneDelegate.swift */,
@@ -95,6 +100,7 @@
 				2CAD88CD23F37622002BB489 /* Info.plist */,
 				2CAD88E123F376D0002BB489 /* FoldedTableViewCell.swift */,
 				2CAD88E223F376D0002BB489 /* FoldedTableViewCell.xib */,
+				2CAD88E823F379B5002BB489 /* RotatedUIView.swift */,
 			);
 			path = FoldedCell;
 			sourceTree = "<group>";
@@ -114,6 +120,14 @@
 				2CAD88E623F37720002BB489 /* AnimationType.swift */,
 			);
 			path = Enum;
+			sourceTree = "<group>";
+		};
+		2CAD88EA23F37F1A002BB489 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2CAD88EB23F37F4E002BB489 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,8 +232,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CAD88EC23F37F4E002BB489 /* UIView+Extensions.swift in Sources */,
 				2CAD88C423F37621002BB489 /* ViewController.swift in Sources */,
 				2CAD88E323F376D0002BB489 /* FoldedTableViewCell.swift in Sources */,
+				2CAD88E923F379B5002BB489 /* RotatedUIView.swift in Sources */,
 				2CAD88C023F37621002BB489 /* AppDelegate.swift in Sources */,
 				2CAD88E723F37720002BB489 /* AnimationType.swift in Sources */,
 				2CAD88C223F37621002BB489 /* SceneDelegate.swift in Sources */,

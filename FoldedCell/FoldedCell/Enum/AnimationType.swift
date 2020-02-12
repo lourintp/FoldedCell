@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum AnimationType {    
+public enum AnimationType {
     case open
     case closed
 }
