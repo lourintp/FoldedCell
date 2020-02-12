@@ -14,6 +14,9 @@
 		2CAD88C923F37622002BB489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CAD88C823F37622002BB489 /* Assets.xcassets */; };
 		2CAD88CC23F37622002BB489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAD88CA23F37622002BB489 /* LaunchScreen.storyboard */; };
 		2CAD88D723F37622002BB489 /* FoldedCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD88D623F37622002BB489 /* FoldedCellTests.swift */; };
+		2CAD88E323F376D0002BB489 /* FoldedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD88E123F376D0002BB489 /* FoldedTableViewCell.swift */; };
+		2CAD88E423F376D0002BB489 /* FoldedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CAD88E223F376D0002BB489 /* FoldedTableViewCell.xib */; };
+		2CAD88E723F37720002BB489 /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAD88E623F37720002BB489 /* AnimationType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		2CAD88D223F37622002BB489 /* FoldedCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoldedCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAD88D623F37622002BB489 /* FoldedCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldedCellTests.swift; sourceTree = "<group>"; };
 		2CAD88D823F37622002BB489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CAD88E123F376D0002BB489 /* FoldedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldedTableViewCell.swift; sourceTree = "<group>"; };
+		2CAD88E223F376D0002BB489 /* FoldedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoldedTableViewCell.xib; sourceTree = "<group>"; };
+		2CAD88E623F37720002BB489 /* AnimationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		2CAD88BE23F37621002BB489 /* FoldedCell */ = {
 			isa = PBXGroup;
 			children = (
+				2CAD88E523F3770C002BB489 /* Enum */,
 				2CAD88BF23F37621002BB489 /* AppDelegate.swift */,
 				2CAD88C123F37621002BB489 /* SceneDelegate.swift */,
 				2CAD88C323F37621002BB489 /* ViewController.swift */,
@@ -86,6 +93,8 @@
 				2CAD88C823F37622002BB489 /* Assets.xcassets */,
 				2CAD88CA23F37622002BB489 /* LaunchScreen.storyboard */,
 				2CAD88CD23F37622002BB489 /* Info.plist */,
+				2CAD88E123F376D0002BB489 /* FoldedTableViewCell.swift */,
+				2CAD88E223F376D0002BB489 /* FoldedTableViewCell.xib */,
 			);
 			path = FoldedCell;
 			sourceTree = "<group>";
@@ -97,6 +106,14 @@
 				2CAD88D823F37622002BB489 /* Info.plist */,
 			);
 			path = FoldedCellTests;
+			sourceTree = "<group>";
+		};
+		2CAD88E523F3770C002BB489 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				2CAD88E623F37720002BB489 /* AnimationType.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CAD88CC23F37622002BB489 /* LaunchScreen.storyboard in Resources */,
+				2CAD88E423F376D0002BB489 /* FoldedTableViewCell.xib in Resources */,
 				2CAD88C923F37622002BB489 /* Assets.xcassets in Resources */,
 				2CAD88C723F37621002BB489 /* Main.storyboard in Resources */,
 			);
@@ -201,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CAD88C423F37621002BB489 /* ViewController.swift in Sources */,
+				2CAD88E323F376D0002BB489 /* FoldedTableViewCell.swift in Sources */,
 				2CAD88C023F37621002BB489 /* AppDelegate.swift in Sources */,
+				2CAD88E723F37720002BB489 /* AnimationType.swift in Sources */,
 				2CAD88C223F37621002BB489 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
